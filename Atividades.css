@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(110, 44, 44);
+    color: wheat;
+}
+
+*{ margin: 0; } 
+
+header{
+    height: 100px;
+    background-color: black;
+}
+
+/* ID */
+#logo{
+    color: rgb(221, 165, 61);
+    font-size: 36px;
+    text-align: center;
+} 
+
+section{
+    margin-top: 20px;
+    height: 200px;
+    width: 48%;
+    background-color: rgb(133, 110, 51);
+    float: left;
+}
+
+/* CLASS */
+.texto{
+    color: white;
+}
+
+aside{
+    margin-top: 20px;
+    height: 200px;
+    width: 30%;
+    float: right;
+}
+
+aside img{
+    height: 200px;
+    width: 100%;
+}
+
+
+footer{
+    margin-top: 500px;
+    clear: both;
+    height: 30px;
+    text-align: center;
+}
+
+footer a{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: rgb(206, 146, 35);
+}
+
+footer a:hover{
+    color: blue;
+}
+
+.container{
+    padding: 0px 4px;
+} 
+
+/* MOBILE */
+@media screen and (max-width: 844px){
+    section, aside {
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 844px){
+    footer{
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 844px){
+    .container{
+        padding: 0px 4px; 
+    }
+}

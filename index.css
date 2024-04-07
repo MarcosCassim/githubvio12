@@ -1,0 +1,127 @@
+body{
+    background-color: black;
+    color: wheat;
+}
+
+/* remove margens inseridas pelo navegador */
+*{ margin: 0;} 
+
+header{
+    height: 100px;
+    background-color: rgb(110, 46, 46);
+}    
+
+/* ID */
+#logo{
+    color: wheat;
+    font-size: 38px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+nav a{
+    font-size: 20px;
+    color: wheat;
+    text-decoration: none;
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    text-align: center;
+}
+
+li{
+    margin-top: 16px;
+    text-align: center;
+}
+
+nav a:hover{
+    color: blue;
+}
+
+section{
+    margin-top: 10px;
+    height: 200px;
+    width: 61%;
+    background-color: rgb(99, 48, 48);
+    float: left;
+}
+
+section h1{
+    margin-top: 8px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(250, 204, 119);
+}
+
+/* CLASS */
+.texto{
+    color: goldenrod;
+}
+
+aside img{
+    margin-top: 10px;
+    height: 202px;
+    width: 30%;
+    float: right;
+}
+
+footer img{
+    margin-top: 244px;
+    height: 30px;
+    width: 99%;
+    border: 5px solid goldenrod;
+}
+
+.container{
+    padding: 0px 3px; 
+}
+
+/* MOBILE */
+@media screen and (max-width: 844px) {
+    ul {
+        float: none;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 844px) {
+    nav a {
+        font-size: 12px;
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 844px){
+    section, aside{
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 844px){
+    aside img {
+        width: 99%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 844px){
+    footer img{
+        width: 98%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 844px){
+    .container{
+        padding: 0px 4px; 
+    }
+}
